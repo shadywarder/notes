@@ -8,6 +8,8 @@ Seminars:
 - https://clck.ru/3DDRyS (notes)
 Practice:
 - http://mathprofi.ru/
+3Blue1Brown:
+- https://clck.ru/3DKfgM
 
 ### Probability and Statistics
 Just close the university course.
