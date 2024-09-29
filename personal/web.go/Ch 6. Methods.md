@@ -128,3 +128,54 @@ It's good to know the basics by heart, like "2XX is good", "4XX is a client erro
 
 ## Status Code Property
 The `http.Response` struct has a `.StatusCode` property that contains the status code of the response.
+
+## HTTP PUT
+The HTTP <u>PUT</u> method creates *or more commonly, updates* the target resource with the contents of the request's `body`. Unlike `GET` and `POST`, there is not `http.Put` function. You will have to create a raw `http.Request` what an `http.Client` can <u>Do</u>. 
+
+### POST vs PUT
+While `POST` and `PUT` are both used for creating resources, `PUT` is more common for updates and is `idempotent`, meaning it's safe to make the request multiple times without changing the server state. For example:
+
+```shell
+POST /users/bob (create bob user)
+POST /users/bob (create duplicate bob user)
+POST /users/bob (create duplicate bob user)
+```
+
+```Shell
+PUT /users/bob (create bob user if it doesn't exist)
+PUT /users/bob (update bob user with the same data)
+PUT /users/bob (update bob user with the same data)
+```
+
+## Patch vs PUT
+You may encounter the <u>PATCH</u> method from time to time. It's frankly not used very often. It's meant to *partially* modify a resource, whereas `PUT` is meant to *completely replace* a resource.
+
+`PATCH` is not as popular as `PUT`, and many servers, even if they allow partial updates, just use `PUT`.
+
+## Delete
+The `DELETE` method does exactly what you expect: it deletes a specified resource.
+
+```go
+// This deletes the location with ID: 52fdfc07-2182-454f-963f-5f0f9a621d72
+url := "https://api.boot.dev/v1/courses_rest_api/learn-http/locations/52fdfc07-2182-454f-963f-5f0f9a621d72"
+req, err := http.NewRequest("DELETE", url, nil)
+if err != nil {
+	fmt.Println(err)
+    return
+}
+
+client := &http.Client{}
+res, err := client.Do(req)
+if err != nil {
+	fmt.Println(err)
+    return
+}
+res.Body.Close()
+
+if res.StatusCode > 299 {
+    fmt.Println("request to delete location unsuccessful")
+    return
+}
+fmt.Println("request to delete location successful")
+```
+
