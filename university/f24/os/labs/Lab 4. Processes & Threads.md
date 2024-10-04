@@ -41,3 +41,37 @@ Some useful utilities for sleeping, waiting and pausing processes.
 - **sleep:** a "system call" used to stop the calling thread (process) for a specific number of seconds passed as an argument.
 - **wait:** a system call used to wait for state changes in one of the children of the calling process, and obtain information about the child whose state has changed. A state change is considered to be: the child terminated; the child was stopped by a signal; of the child was resumed by a signal. For instance, to let the parent wait for its $n$ children, you need to call wait function $n$ times and pass `NULL` to this function if you interested in the stage change information.
 - **pause:** a system call which causes the calling process (or thread) to sleep until a signal is delivered. 
+
+## Text file I/O in C
+This slide is dedicated to give you an example on reading/writing from/to text files in C.
+
+```c
+/∗ read from a text file example ∗/
+#include <stdio.h>
+int main () {
+	FILE ∗ pFile;
+	// modes: r − read, a − append
+	pFile = fopen(”myfile.txt”,”r”);
+	char line[10];
+	if (pFile!=NULL) {
+		fscanf(pFile,”%s[ˆ\n]”, line);
+		fclose(pFile);
+	}
+	printf(”%s”, line);
+	return 0;
+}
+
+/∗ write to a text file example ∗/
+#include <stdio.h>
+int main () {
+	FILE ∗ pFile;
+	// modes: w − write
+	pFile = fopen(”myfile.txt”,”w”);
+	if (pFile!=NULL) {
+		fputs(”new line”,pFile);
+		fclose(pFile);
+	}
+	return 0;
+}
+```
+

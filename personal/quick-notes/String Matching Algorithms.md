@@ -11,6 +11,7 @@ The *string-matching problem* is the problem of finding all valid shifts with wh
 | Finite automaton   | $O(m\|\Sigma\|)$   | $\Theta(n)$        |
 | Knuth-Morris-Pratt | $\Theta(m)$        | $\Theta(n)$        |
 | Suffix array       | $O(n \lg n)$       | $O(m \lg n + km)$  |
+
 A string $w$ is a *proper prefix* of $x$ if $w \sqsubset x$ and $|w| < |x|$, and likewise for a *proper suffix*. The empty string $\epsilon$ is both a suffix and a prefix of every string. 
 
 ***Overlapping-suffix lemma***
