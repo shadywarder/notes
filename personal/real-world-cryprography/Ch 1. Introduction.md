@@ -38,7 +38,6 @@ The actual process is shown below:
 ## 1.3 Kerckhoff's principle: Only the key is kept secret
 
 > [!NOTE]
-> A cryptographic algorithm can be considered broken in many ways. For
-an encryption algorithm, you can imagine several ways to attack the algorithm: the secret key can be leaked to the attacker, messages can be decrypted without the help of the key, some information about the message can be revealed just by looking at the encrypted message, and so on. Anything that would somehow weaken the assumptions we made about the algorithm could be considered a break.
+> A cryptographic algorithm can be considered broken in many ways. For an encryption algorithm, you can imagine several ways to attack the algorithm: the secret key can be leaked to the attacker, messages can be decrypted without the help of the key, some information about the message can be revealed just by looking at the encrypted message, and so on. Anything that would somehow weaken the assumptions we made about the algorithm could be considered a break.
 
 A strong notion came out of the long process of trial and error that cryptography went through: to obtain confidence in the security claims made by a cryptographic primitive, the primitive has to be analyzed in the open by experts. Short of that, you are relying on *security through obscurity*, which hasn't worked historically. This is why *cryptographers* (the people who build) usually use the help of *cryptaanalysts* (the people who break) in order to analyze the security of a construction. 
