@@ -4,7 +4,7 @@ The URL Path comes right after the domain (or port if one is provided) in a URL 
 In this URL: 
 
 ```Shell
-`http://testdomain.com/root/next`
+http://testdomain.com/root/next
 ```
 
 The path is:
@@ -69,7 +69,7 @@ The server has *complete control* over how the path in a URL in interpreted and 
 Query parameters are `key/value` pairs - that means there can be multiple pairs!
 `http://example.com?firstName=lane&lastName=wagner`
 In the example above:
-- `firstName` = `lane`\
+- `firstName` = `lane`
 - `lastName` = `wagner`
 The `?` separates the query parameters from the rest of the URL. The `&` is then used to separate *each additional pair* of query parameters after that.
 

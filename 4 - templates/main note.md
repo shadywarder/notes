@@ -1,5 +1,4 @@
 **{{date}} {{time}}**
-
 Tags:
 
 ## {{Title}}

@@ -1,5 +1,4 @@
 **2024-12-05 22:38**
-
 Tags: [[math]] [[probability]]
 
 ## Discrete distributions

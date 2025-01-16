@@ -7,7 +7,7 @@ HTTP requests from a web browser automatically carry with them many headers, inc
 - The preferred language (e.g. US English)
 As developers, we can define custom headers in each request.
 
-### Headers in Go's `net/http` Package 
+### Headers in Go's net/http Package 
 In Go, the `net/http` package provides us with the necessary tools to work with HTTP headers. We can access headers through the `Header` type, which is essentially a map of string slices (`map[string][]string`). This allows us to perform various actions on our request and response headers such as retrieving, setting, and removing them.
 
 ```go

@@ -4,7 +4,7 @@ Tags: [[statistics]] [[math]]
 
 ## What is a statistic?
 $$
-T : (\xi_1, \dots, \xi_n) \rightarrow \mathbb{R}
+T : (\xi_1, \dots, \xi_n) \longrightarrow \mathbb{R}
 $$
 Where $(\xi_{1}, \dots, \xi_{n})$ is a sample of a random variable $\xi$.
 
