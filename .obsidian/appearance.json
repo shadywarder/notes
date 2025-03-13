@@ -1,0 +1,12 @@
+{
+  "cssTheme": "Primary",
+  "theme": "obsidian",
+  "baseFontSize": 18,
+  "textFontFamily": "",
+  "monospaceFontFamily": "JetBrains Mono",
+  "enabledCssSnippets": [
+    "latexscaling",
+    "page-breaks"
+  ],
+  "accentColor": ""
+}

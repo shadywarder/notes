@@ -1,5 +1,5 @@
 **2024-12-31 01:22**
-Tags: [[sql]] [[db]] [[stp]]
+Tags: [[sql]] [dbms](../2%20-%20tags/dbms.md) [[stp]]
 
 ## Table Creation
 An SQL query is used to create the table. It indicated which table is being created, which attributes it consists of and which data type each field has, field description (primary key etc.) specifies if necessary. Example:

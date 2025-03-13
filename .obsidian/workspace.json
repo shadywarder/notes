@@ -1,0 +1,266 @@
+{
+  "main": {
+    "id": "02e2237111516876",
+    "type": "split",
+    "children": [
+      {
+        "id": "438c14b8200521f8",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ce4d5575b72b764f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "5 - main notes/Networks Devices.md",
+                "mode": "preview",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Networks Devices"
+            }
+          },
+          {
+            "id": "ac58c9da613ecd40",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "5 - main notes/Network Topologies.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Network Topologies"
+            }
+          },
+          {
+            "id": "fd2e86e23a5991f3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "5 - main notes/sna. lab 7.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "sna. lab 7"
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "4b9217b949a97899",
+    "type": "split",
+    "children": [
+      {
+        "id": "636026df3e01ce63",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3eb45a8586f5d636",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "ce2ea2dea7a837ba",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "// we can call set with a `Key` and a `Value`.  err = client.Set(context.Background(), \"name\", \"Elliot\", 0).Err() // if there has been an error setting the value // handle the error if err != nil {     fmt.Println(err) }",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "68c1f9daf3976f24",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 298.5110321044922,
+    "collapsed": true
+  },
+  "right": {
+    "id": "6146f45421427c96",
+    "type": "split",
+    "children": [
+      {
+        "id": "f897bc7267019883",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2f7f3d9ccfe45914",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "5 - main notes/ML Lecture 03.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for ML Lecture 03"
+            }
+          },
+          {
+            "id": "3e85f8aed2f07be0",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "4 - templates/main note.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from main note"
+            }
+          },
+          {
+            "id": "93374bdb49f0101a",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "142d0def1c0a9c5a",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "4 - templates/main note.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of main note"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "fd2e86e23a5991f3",
+  "lastOpenFiles": [
+    "5 - main notes/Task Scheduler in Go with gocron.md",
+    "5 - main notes/Scheduling tasks.md",
+    "5 - main notes/Networks Devices.md",
+    "5 - main notes/Network Topologies.md",
+    "5 - main notes/sna. lab 7.md",
+    "attachments/Pasted image 20250310233835.png",
+    "attachments/Pasted image 20250310233438.png",
+    "attachments/Pasted image 20250310233436.png",
+    "attachments/Pasted image 20250310233129.png",
+    "attachments/Pasted image 20250310233027.png",
+    "attachments/Pasted image 20250310233014.png",
+    "attachments/Pasted image 20250310231934.png",
+    "attachments/Pasted image 20250310231908.png",
+    "attachments/Pasted image 20250310230000.png",
+    "attachments/Pasted image 20250310225940.png",
+    "5 - main notes/sna. lab 6.md",
+    "2 - tags/networks.md",
+    "5 - main notes/Networks Characteristics.md",
+    "5 - main notes/Understanding Different Types of Networks - LAN, MAN, and WAN.md",
+    "5 - main notes/Neural Network Output Problem.md",
+    "5 - main notes/Networks S25 Lab Week 1.md",
+    "5 - main notes/Networks S25.md",
+    "5 - main notes/How to truncate the floating point number in Go to the desired precision?.md",
+    "5 - main notes/Pasted image 20241218230456.png.md",
+    "5 - main notes/Basic Networks Concepts.md",
+    "5 - main notes/Internet - Organization Principles.md",
+    "5 - main notes/ML Lecture 03.md",
+    "5 - main notes/Machine Learning Reflections.md",
+    "5 - main notes/Some Machine Learning Midterm Solutions.md",
+    "5 - main notes/ML Lecture 02.md",
+    "3 - indexes/s25.md",
+    "2 - tags/ml.md",
+    "5 - main notes/Go Track Decisions Notes.md",
+    "2 - tags/nyi.md",
+    "5 - main notes/Learn Database Normalization - 1NF, 2NF, 3NF, 4NF, 5NF.md",
+    "5 - main notes/Lab 03 Relational Algebra.md",
+    "Untitled.canvas"
+  ]
+}

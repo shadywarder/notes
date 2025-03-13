@@ -14,7 +14,7 @@ Tags: [[productivity]]
 - [ ] DataLemur SQL Tutorial
 - [ ] Makefile [tutorial](https://makefiletutorial.com/)
 - [ ] Go through bootdev SQL Course
-- [ ] Finish GitHowTo course
+- [x] Finish GitHowTo course
 - [ ] Complete Docker course at bootdev
 
 

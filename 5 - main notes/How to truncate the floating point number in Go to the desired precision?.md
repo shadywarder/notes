@@ -11,10 +11,6 @@ $$
 
 $$
 
-And here is the actual log:
-
-![[Pasted image 20241218230456.png]]
-
 So, I came to the following (possible) solution:
 
 ```go

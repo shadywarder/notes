@@ -1,0 +1,18 @@
+{
+  "useMarkdownLinks": true,
+  "newLinkFormat": "relative",
+  "attachmentFolderPath": "attachments",
+  "showLineNumber": false,
+  "vimMode": false,
+  "readableLineLength": true,
+  "showInlineTitle": false,
+  "newFileLocation": "folder",
+  "newFileFolderPath": "5 - main notes",
+  "pdfExportSettings": {
+    "pageSize": "Letter",
+    "landscape": false,
+    "margin": "0",
+    "downscalePercent": 75
+  },
+  "alwaysUpdateLinks": true
+}

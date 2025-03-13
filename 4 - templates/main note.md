@@ -1,5 +1,5 @@
 **{{date}} {{time}}**
-Tags:
+**Tags:**
 
 ## {{Title}}
 

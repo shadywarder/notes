@@ -2,7 +2,7 @@ Hypertext Transfer Protocol *Secure* or <u>HTTPS</u> is an extension of the HTTP
 
 HTTPS allows a client to safely share sensitive information with the server through an HTTP request, such as credit card information, passwords. or bank account numbers.
 
-## Security and Encryption \
+## Security and Encryption 
 HTTPS requires that the client use <u>SSL</u> or <u>TLS</u> to protect requests and traffic by encrypting the information in the request. You don't need to manually handle encryption or decryption - it's all done for you by the protocol. **HTTPS is simply HTTP with built-in security!**
 
 ![[../../../1 - source materials/attachments/Pasted image 20240929183716.png]]
