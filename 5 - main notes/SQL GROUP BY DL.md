@@ -2,7 +2,7 @@
 **Tags:** [sql](../2%20-%20tags/sql.md)
 
 ## SQL GROUP BY
-The [SQL Aggregate Functions](SQL%20Aggregate%20Function%20DL.md) like `AVG`, `MIN`, and `SUM` from the previous lesson process an entire column to come up with an answer. But what if you want to aggregate only *part* of a table?
+The SQL Aggregate Function like `AVG`, `MIN`, and `SUM` from the previous lesson process an entire column to come up with an answer. But what if you want to aggregate only *part* of a table?
 
 For example, instead of finding the average price all Amazon products orders, what if you want to find the average spent by category (i.e. average spend on appliances vs. electronics?)
 

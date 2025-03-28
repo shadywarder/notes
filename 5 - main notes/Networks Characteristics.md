@@ -96,5 +96,3 @@ BAN, PAN: **Bluetooth, Wi-Fi**
 | Topology               | Bus, Ring, Star, Hierarchical, Mesh               |
 | Performance Metrics    | Bandwidth, Throughput, Packet Loss and Error rate |
 | Proprietary Type       | Open and Proprietary systems                      |
-
-## References

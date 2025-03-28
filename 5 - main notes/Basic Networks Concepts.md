@@ -12,7 +12,7 @@
 - Wired or wireless;
 - Emposes transfer delay;
 - Bounded throughput;
-- Can corrupt and lose data.4
+- Can corrupt and lose data.
 
 ### Network Interface Controller (NIC)
 
@@ -104,5 +104,3 @@ A **Point-to-Point Network** is a private data connection securely connecting tw
 ### Network Organization
 **Network  Core:** Intermediate routers and other network devices, providing communication between hosts.
 **Network Edge:** Network hosts, initiating data exchange over a network.
-
-## References

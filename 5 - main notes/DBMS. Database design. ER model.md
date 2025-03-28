@@ -123,5 +123,3 @@ Sometimes it's convenient to use ternary relationships instead of binary ones.
 - ER diagram should be readable from the left to right and from top to bottom, which is especially useful for representing relationships.
 
 ![](../attachments/Pasted%20image%2020250305103307.png)
-
-## References

@@ -4,83 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "438c14b8200521f8",
+        "id": "0929fde60b3bd729",
         "type": "tabs",
         "children": [
           {
-            "id": "ce4d5575b72b764f",
+            "id": "ad6b028348ce9e9b",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "5 - main notes/Networks Devices.md",
-                "mode": "preview",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Networks Devices"
-            }
-          },
-          {
-            "id": "ac58c9da613ecd40",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "5 - main notes/Network Topologies.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Network Topologies"
-            }
-          },
-          {
-            "id": "fd2e86e23a5991f3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "5 - main notes/sna. lab 7.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "sna. lab 7"
+              "title": "New tab"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -223,44 +160,46 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "fd2e86e23a5991f3",
+  "active": "ad6b028348ce9e9b",
   "lastOpenFiles": [
-    "5 - main notes/Task Scheduler in Go with gocron.md",
-    "5 - main notes/Scheduling tasks.md",
-    "5 - main notes/Networks Devices.md",
-    "5 - main notes/Network Topologies.md",
-    "5 - main notes/sna. lab 7.md",
-    "attachments/Pasted image 20250310233835.png",
-    "attachments/Pasted image 20250310233438.png",
-    "attachments/Pasted image 20250310233436.png",
-    "attachments/Pasted image 20250310233129.png",
-    "attachments/Pasted image 20250310233027.png",
-    "attachments/Pasted image 20250310233014.png",
-    "attachments/Pasted image 20250310231934.png",
-    "attachments/Pasted image 20250310231908.png",
-    "attachments/Pasted image 20250310230000.png",
-    "attachments/Pasted image 20250310225940.png",
+    "5 - main notes/API Gateway. Featuers and Benefits.md",
+    "2 - tags/system design.md",
+    "5 - main notes/Transactions Isolation Practice.md",
+    "5 - main notes/All About Transactions Isolation in Databases.md",
+    "2 - tags/dbms.md",
+    "6 - todo/Go Structured Logging.md",
+    "5 - main notes/Ch 4. Networks.md",
+    "attachments/Pasted image 20250325170315.png",
+    "attachments/Pasted image 20250325163124.png",
+    "5 - main notes/Ch 3. Storage.md",
+    "attachments/Pasted image 20250325152233.png",
+    "5 - main notes/Ch 2. Command Line.md",
+    "attachments/Pasted image 20250325121134.png",
+    "attachments/Pasted image 20250325120248.png",
+    "attachments/Pasted image 20250325115921.png",
+    "5 - main notes/sna. lab 8.md",
+    "5 - main notes/sna. lab 3.md",
     "5 - main notes/sna. lab 6.md",
-    "2 - tags/networks.md",
-    "5 - main notes/Networks Characteristics.md",
-    "5 - main notes/Understanding Different Types of Networks - LAN, MAN, and WAN.md",
-    "5 - main notes/Neural Network Output Problem.md",
-    "5 - main notes/Networks S25 Lab Week 1.md",
-    "5 - main notes/Networks S25.md",
-    "5 - main notes/How to truncate the floating point number in Go to the desired precision?.md",
-    "5 - main notes/Pasted image 20241218230456.png.md",
-    "5 - main notes/Basic Networks Concepts.md",
-    "5 - main notes/Internet - Organization Principles.md",
-    "5 - main notes/ML Lecture 03.md",
-    "5 - main notes/Machine Learning Reflections.md",
-    "5 - main notes/Some Machine Learning Midterm Solutions.md",
-    "5 - main notes/ML Lecture 02.md",
-    "3 - indexes/s25.md",
-    "2 - tags/ml.md",
-    "5 - main notes/Go Track Decisions Notes.md",
-    "2 - tags/nyi.md",
-    "5 - main notes/Learn Database Normalization - 1NF, 2NF, 3NF, 4NF, 5NF.md",
-    "5 - main notes/Lab 03 Relational Algebra.md",
+    "5 - main notes/sna. lab 5.md",
+    "5 - main notes/sna. lab 4.md",
+    "5 - main notes/sna. lab 7.md",
+    "5 - main notes/Ch 1. Install.md",
+    "attachments/Pasted image 20250324230807.png",
+    "attachments/Pasted image 20250324230741.png",
+    "6 - todo/What is the difference between CMD and ENTRYPOINT in a Dockerfile?.md",
+    "6 - todo/Congestion Control vs. Flow Control in TCP.md",
+    "6 - todo/Communication Medium vs. Communication Link vs. Communication Channel.md",
+    "6 - todo/ER Model.md",
+    "6 - todo/Docker vs. VM.md",
+    "attachments/Pasted image 20250324225733.png",
+    "attachments/Pasted image 20250324225728.png",
+    "5 - main notes/Learn Docker.md",
+    "5 - main notes/Learn HTTP Servers in Go.md",
+    "5 - main notes/sna. lab 9.md",
+    "5 - main notes/Proxy. Forward, Reverse, and More.md",
+    "5 - main notes/Scaling. Vertical and Horizontal Strategies.md",
+    "6 - todo",
+    "Генерация и использование моков в Go ",
     "Untitled.canvas"
   ]
 }

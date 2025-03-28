@@ -93,5 +93,15 @@ Routing involves moving data across different networks. Here's simplified overvi
 5. **Metric:** This value helps decide the best path when multiple routes to the same destination exist. Lower metrics are preferred.
 6. **Flag:** Indicates the route status, such as `U` for operational routes.
 
+### Switch vs. Router
+
+| Feature                | Switch                                   | Router                                       |
+| ---------------------- | ---------------------------------------- | -------------------------------------------- |
+| **Layer**              | Data Link Layer (Layer 2)                | Network Layer (Layer 3)                      |
+| **Addressing**         | Uses MAC addresses                       | Uses IP addresses                            |
+| **Function**           | Forwards frames within the same network  | Routes datagrams between different networks  |
+| **Path Determination** | No - it only forwards base on MAC tables | Yes - uses routing protocols                 |
+| **Scope**              | LAN                                      | Connects multiple networks (e.g. LAN to WAN) |
+
 ## References
 [Network Devices](https://nailyourinterview.org/interview-resources/computer-networks/network-devices/)

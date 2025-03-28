@@ -11,6 +11,3 @@
 7. [Ch 7. Authorization](Ch%207.%20Authorization.md)
 8. [Ch 8. Webhooks](Ch%208.%20Webhooks.md)
 
-
-
-## References

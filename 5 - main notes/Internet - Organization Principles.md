@@ -3,6 +3,7 @@
 
 ## Internet - Organization Principles
 ### Home Network
+
 - Connects devices within a close vinicity of a home;
 - Typically has one Wi-Fi router;
 - Local or Home Area Network (LAN, HAN).
@@ -10,6 +11,7 @@
 ![](../attachments/Pasted%20image%2020250228115401.png)
 
 ### Local or Regional Internet Service Provides (ISP)
+
 - Example: Tattelecolm;
 - Provides an Internet connection to local communities or small regions;
 - Services: IP address allocation, domain name registration, web hosting, etc.
@@ -18,6 +20,7 @@
 ![](../attachments/Pasted%20image%2020250228115553.png)
 
 ### Content Provider Network
+
 - Servers network of a content provider (e.g. Youtube.com, Google.com);
 - Numerous user requests are handled by different servers;
 - Needed for handling simultaneous requests with acceptable quality (delay);
@@ -26,12 +29,14 @@
 ![](../attachments/Pasted%20image%2020250228115756.png)
 
 ### Enterprise Network
+
 - Midsize or large enterprise IT infrastructure;
 - Local Area Network (LAN).
 
 ![](../attachments/Pasted%20image%2020250228115909.png)
 
 ### Mobile Network
+
 - A large-scale wireless network;
 - Radio waves transmission medium;
 - Multiple radio base stations over a large area;
@@ -76,5 +81,3 @@ Interconnects the hardware infrastructure of multiple ISPs;
 **The Interned Corporation for Assigned Names and Numbers (ICANN)** - allocates IP addresses around the Globe.
 
 ![](../attachments/Pasted%20image%2020250228121206.png)
-
-## References
